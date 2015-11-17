@@ -1,3 +1,4 @@
+FROM	centos:centos6
 # enable extra packages for linux on CentOS
 RUN	yum install -y epel-release
 # install node.js and npm
