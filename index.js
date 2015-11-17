@@ -9,7 +9,7 @@ app.get('/', function(req,res){
 	res.send('Hello world\n');
 });
 
-app.get'/test', function(req,res){
+app.get('/test', function(req,res){
 	res.send('this is a test folder\n');
 }
 
