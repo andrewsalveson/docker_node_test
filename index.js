@@ -11,7 +11,7 @@ app.get('/', function(req,res){
 
 app.get('/test', function(req,res){
 	res.send('this is a test folder\n');
-}
+});
 
 app.listen(PORT);
 console.log('Running on http://localhost:'+PORT);
